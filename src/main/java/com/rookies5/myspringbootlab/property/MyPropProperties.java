@@ -5,7 +5,7 @@ import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-@Component // 스프링 빈으로 등록
+@Component
 @ConfigurationProperties(prefix = "myprop") // "myprop"으로 시작하는 설정값들을 매핑
 @Getter
 @Setter
